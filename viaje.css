@@ -1,0 +1,223 @@
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e3030;
+    color: #eee;
+
+    margin: 0 auto;
+}
+/*header*/
+.nav_cabeza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c434d;
+    padding: 20px;
+    position: sticky;
+    top: 10px;
+}
+.nav_cabeza h1 {
+    font-size: 40px;
+    color: #fff;
+    margin: 10px 0;
+    margin-right: auto;
+    padding-left: 10px;
+    font-family: Times, serif;
+}
+.nav_cabeza button {
+    background-color: #4e423a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.nav_cabeza button:hover {
+    background-color: #5a4f47;
+}
+.form__buscador input[type="text"] {
+    position: relative;
+    margin-left: auto;
+    margin-right: 20px;
+    width: 200px;
+    padding: 10px 10px;
+    z-index: 1;
+    border-radius: 5px;
+    margin-bottom: 0;
+    }
+.nav_cuello {
+    display: flex;
+    justify-content: center;
+    background-color: #aaa396;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+.nav_cuello a {
+    background-color: #4e423a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.nav_cuello a:hover {
+    background-color: #5a4f47;
+    text-decoration: none;
+}
+.div__container {
+    background-image: url('/img/fondo3.jpg');
+    background: linear-gradient(to top, black, transparent), url('/img/fondo3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.div__container h2 {
+    color: #fff;
+    font-size: 70px;
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+    padding-bottom: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/*info general ubicacion*/
+.sec__general {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #3c4460; /* un tono distinto al fondo actual */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    width: 80%;
+    margin: 0 auto;
+}
+.map-container h2 {
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.contenedor-mapa-texto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+
+.contenedor-mapa-texto .map-container {
+    flex-basis: 400px;
+}
+.contenedor-mapa-texto .sec__texto {
+  flex-grow: 1;
+}
+.sec__texto {
+  padding: 20px;
+  background-color: #3c434d;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+  display: block;
+
+}
+.map-container iframe {
+    width: 400px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+}
+/*articulo info*/
+.arti__info {
+    padding: 20px;
+    background-color: #2d3250;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.arti__info h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.arti__info section {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #424769;
+    border-radius: 5px;
+    height: auto;
+}
+.sec__actividad {
+    margin-top: 20px;
+}
+a {
+    color: #c5bba4;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    text-align: center;
+}
+/* Ajuste para que los anchors no queden tapados por el header/nav */
+#inicio,
+#ubicacion, 
+#informacion, 
+#actividades, 
+#hoteles {
+  scroll-margin-top: 100px;
+}
+
+/*footer*/
+.site-footer {
+    height: 100%;
+    height: auto;
+    background-color: #122430;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .site-footer a {
+    color: #c5bba4;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .site-footer a:hover {
+    text-decoration: underline;
+  }
+  
